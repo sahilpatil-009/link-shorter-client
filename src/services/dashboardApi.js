@@ -1,5 +1,6 @@
 const URL = "https://shortlink-whlp.onrender.com";
 
+
 // get links data
 export const getLinkData = async (data) => {
   return fetch(`${URL}/dashboard`, {
